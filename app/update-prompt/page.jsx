@@ -5,6 +5,7 @@ import { Suspense } from "react";
 import Form from "@/components/Form";
 
 const EditPrompt = () => {
+  
   const router = useRouter();
   const searchParams = useSearchParams();
   const promptId = searchParams.get("id");
